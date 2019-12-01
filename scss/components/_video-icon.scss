@@ -1,0 +1,52 @@
+.video-icon{
+   
+
+    &--box{
+        border: 1px solid $color-grey;
+        border-radius: 2px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        transition: all .2s;
+        box-shadow: 0 1rem 2rem rgba($color-black, .3);
+
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 3.5rem 4rem rgba($color-black, $alpha: .2);
+            cursor: pointer;
+        }
+
+        &:active{
+            transform: scale(2.05);
+            transform: translateY(4px);
+            filter: blur(.9px);
+        }
+
+    }
+    &--img{
+        
+        
+        height: auto;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    &--title{
+        background-color: $color-grey;
+        color: white;
+        font-weight: 500;
+        padding-left: .5rem;
+    }
+
+    &--details{
+        padding-left: .5rem;
+        padding-bottom: 1rem;
+        background-color: $color-grey-light-2;
+
+        &--angency{
+            font-weight: 700;
+            
+        }
+    }
+}

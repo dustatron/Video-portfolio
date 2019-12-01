@@ -1,0 +1,40 @@
+
+body{
+	height: 100%;
+    background-color: #333;
+}
+
+.header--logo{
+	margin-right: 15px;
+}
+
+.video-player--box{
+	background-color: black;
+	height: 400px;
+	margin: auto;
+}
+
+.video-icon {
+	max-height: 125px;
+	margin-bottom: 15px;
+	
+}
+
+.video-selection{
+	margin: auto;
+	margin-top: 25px;
+}
+
+
+.section-video {
+	background-color: #333;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.section-buttons {
+	padding-top: 20px;
+	background-color: #F8F9Fa;
+	height: 100%;
+}
